@@ -5,6 +5,8 @@ Package.resolved
 *.xcodeproj
 *.xcworkspace
 
+/App/SwiftPMDemo.xcodeproj
+
 # Xcode
 xcuserdata/
 DerivedData/

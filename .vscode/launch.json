@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftpm-demo}",
+            "name": "Debug Printer",
+            "target": "Printer",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Printer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftpm-demo}",
+            "name": "Release Printer",
+            "target": "Printer",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Printer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftpm-demo}",
+            "name": "Debug FugaFactory",
+            "target": "FugaFactory",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug FugaFactory"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftpm-demo}",
+            "name": "Release FugaFactory",
+            "target": "FugaFactory",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release FugaFactory"
+        }
+    ]
+}
